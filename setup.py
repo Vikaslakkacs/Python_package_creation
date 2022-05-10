@@ -4,10 +4,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 PKG_NAME="oneNeuron_pkg"
 USER_NAME = "Vikaslakkacs"
-PROJECT_NAME="oneNeuron-pkg"
+PROJECT_NAME="Python_package_creation"## Which is repo name
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.3",
+    version="0.0.4",
     author="Example Author",
     author_email="vikaslakkacs@gmail.com",
     description="A small for perceptron",
