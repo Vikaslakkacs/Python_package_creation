@@ -2,18 +2,20 @@ import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
+PROJECT_NAME="oneNeuron_pkg"
+USER_NAME = "Vikaslakkacs"
 
 setuptools.setup(
-    name="example-package-YOUR-USERNAME-HERE",
+    name=f"{PROJECT_NAME}-{USER_NAME}",
     version="0.0.1",
     author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    author_email="vikaslakkacs.com",
+    description="A small for perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/{USER_NAME}/{PROJECT_NAME}",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "Bug Tracker": "https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -23,4 +25,7 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
+    install_requires=[attrs="numpy==1.21.6",
+    "pandas==1.3.5",
+    "joblib==1.1.0"]
 )
