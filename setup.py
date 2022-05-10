@@ -7,15 +7,15 @@ USER_NAME = "Vikaslakkacs"
 PROJECT_NAME="oneNeuron-pkg"
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.2",
+    version="0.0.3",
     author="Example Author",
     author_email="vikaslakkacs@gmail.com",
     description="A small for perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/{USER_NAME}/{PROJECT_NAME}",
+    url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
     project_urls={
-        "Bug Tracker": "https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
+        "Bug Tracker": f"https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
