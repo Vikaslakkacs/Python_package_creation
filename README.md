@@ -1,5 +1,10 @@
 # oneNeuron Python package
 
+## How to use this package
+'''python
+from oneNeuron.perceptron import Perceptron
+model= Perceptron(eta=0.3, epochs=10)
+'''
 
 ## References - 
 
