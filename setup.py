@@ -7,7 +7,7 @@ USER_NAME = "Vikaslakkacs"
 PROJECT_NAME="Python_package_creation"## Which is repo name
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.4",
+    version="0.0.5",
     author="Example Author",
     author_email="vikaslakkacs@gmail.com",
     description="A small for perceptron",
