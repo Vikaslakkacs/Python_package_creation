@@ -9,7 +9,7 @@ setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
     version="0.0.1",
     author="Example Author",
-    author_email="vikaslakkacs.com",
+    author_email="vikaslakkacs@gmail.com",
     description="A small for perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
